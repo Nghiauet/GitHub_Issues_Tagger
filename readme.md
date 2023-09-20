@@ -34,3 +34,5 @@ This method have good results when dont have much data don't want to find tune t
 Use bert base model to fine tune data
 ![Alt text](image-7.png)  
 Can see fine-tune model work better when have more data accuracy grow exponentially
+# Approach 5 use unlabeled data to fine tune with domain adaptation
+![Alt text](image-10.png)
