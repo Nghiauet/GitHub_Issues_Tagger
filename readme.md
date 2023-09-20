@@ -4,9 +4,10 @@ Thesetags might define the issue type, the product causing the problem, or which
 responsible for handling the reported issue. Automating this process can have a big
 impact on productivity and enables the support teams to focus on helping their users.
 ![Alt text](image.png)
-# Step 1 geting the data 
+# Step 1 Get and process the data 
 To grab all the repository’s issues, we’ll use the GitHub REST API to poll the Issues
 endpoint.
+![Alt text](image-8.png)
 Create training and test set  
 # Step 2: Use simple Naive base model to benchmarch
 # step 3: Use MNLI model for zero shot task 
@@ -27,7 +28,7 @@ data augmentation work like charm when augment 10 sample
 Use model GPT2 to create embedding dictionary 
 Use Faiss API to create index and search
 ![Alt text](image-5.png) 
-![Alt text](image-6.png)  
+![Alt text](image-9.png)  
 This method have good results when dont have much data don't want to find tune the model it can yield quick result
 # Approach 4 fine tune data 
 Use bert base model to fine tune data
