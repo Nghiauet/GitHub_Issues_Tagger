@@ -1,5 +1,5 @@
-# use issue trackers like Jira or GitHub to assist users this is example in the book 
-# Natural Language Processing with Transformers by Lewis Tunstall, Leandro von Werra  and & Thomas Wolf
+# Github Issue Tagging 
+## This is example in the book  Natural Language Processing with Transformers by Lewis Tunstall, Leandro von Werra  and & Thomas Wolf
 ## tagging issues with metadata based on the issue’s description. 
 Thesetags might define the issue type, the product causing the problem, or which team is
 responsible for handling the reported issue. Automating this process can have a big
@@ -10,7 +10,7 @@ To grab all the repository’s issues, we’ll use the GitHub REST API to poll t
 endpoint.
 ![Alt text](/images/image-8.png)
 Create training and test set  
-# Step 2: Use simple Naive base model to benchmarch
+# Step 2: Use simple Naive base model to benchmark
 # step 3: Use MNLI model for zero shot task 
 benchmark with topk and threshold methologies and compare with the naive base
 ![Alt text](/images/image-3.png)
